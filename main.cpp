@@ -21,5 +21,6 @@ int main(){
     }
 
     cout << "La sumatoria desde 0 hasta " << numero_N << " es " << suma << endl;
+
     return 0;
 }
