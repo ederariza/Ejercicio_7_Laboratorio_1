@@ -6,7 +6,6 @@ La sumatoria desde 0 hasta 5 es: 15
  */
 
 #include <iostream>
-
 using namespace std;
 
 int main(){
