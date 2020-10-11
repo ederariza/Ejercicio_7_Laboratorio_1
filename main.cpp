@@ -15,7 +15,7 @@ int main(){
     cin >> numero_N;
 
     int suma = 0;
-    for (int i=1; i<=numero_N; i++){
+    for (int i=0; i<=numero_N; i++){
         suma += i;
         cout << i;
 
