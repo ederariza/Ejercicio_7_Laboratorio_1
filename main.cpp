@@ -15,11 +15,15 @@ int main(){
     cin >> numero_N;
 
     int suma = 0;
-    for(int i=0; i<=numero_N; i++){
+    for (int i=1; i<=numero_N; i++){
         suma += i;
+        cout << i;
+
+        if (i != numero_N)
+            cout << " + ";
     }
 
-    cout << "La sumatoria desde 0 hasta " << numero_N << " es " << suma << endl;
+    cout << "\nLa sumatoria desde 0 hasta " << numero_N << " es " << suma << endl;
 
     return 0;
 }
